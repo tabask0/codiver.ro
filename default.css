@@ -439,7 +439,7 @@ h6 { font-size: 16px;}
 	white-space: nowrap;
 	animation: typing 4.7s steps(25), blink 1s ease-in-out 4s infinite;
 	width: 35ch;
-	margin: auto;
+	margin: 40px auto auto auto;
 	border-right: 4px solid rgb(255, 255, 255, 1);
 }
 @keyframes typing{
@@ -459,4 +459,18 @@ h6 { font-size: 16px;}
 			border-right: 4px solid rgb(194, 194, 194);
 	}
 
+}
+
+.greeting-wrapper h3 {
+	font-family: 'Roboto', sans-serif;
+	color: rgb(41, 165, 153);
+	padding: 5px;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.greeting-wrapper p {
+	font-family: 'Roboto', sans-serif;
+	padding: 5px;
+	letter-spacing: 5px;
 }
