@@ -150,7 +150,7 @@
 					<h4>My Exerience</h4>
 
 					<p>This is my detailed resume: <a target="_blank" href="resume.pdf">Open Resume</a></p>
-
+					
 					<div id="skills">
 						<ul>
 							<li>HTML</li>
@@ -249,28 +249,34 @@
 				<a name="contact"></a>
 
 				<label>Name</label>
-				<input class="input-field" type="text" name="name">
+				<input class="input-field" type="text" name="name" placeholder="ex: John">
 
 				<label>Subject</label>
-				<input class="input-field" type="text" name="subject">
+				<input class="input-field" type="text" name="subject" placeholder="ex: My cat">
 
 				<label>Email</label>
-				<input class="input-field" type="email" name="email">
+				<input class="input-field" type="email" name="email" placeholder="ex: john@mycat.com">
 
 				<label>Message</label>
-				<textarea class="input-field" name="message"></textarea>
+				<textarea class="input-field" name="message" placeholder="ex: I am contacting you about a job offer"></textarea>
 
-				<input id="submit-btn" type="submit">
+				<input id="submit-btn" type="submit" value="Submit">
 			</form>
 		</div>
 	</section> 
+	<section class="s1">
+		<div>
+			<h4 style="font-weight: 300;">2020 &copy; Andrei Bucur</h4>
+		</div>
+
+	</section>
 		</div>
 	<script type="text/javascript" src="script.js"></script>
 	<script>
 		var myVar;
 		
 		function myFunction() {
-			myVar = setTimeout(showPage, 1200);
+			myVar = setTimeout(showPage, 1000);
 		}
 		
 		function showPage() {
