@@ -474,3 +474,34 @@ h6 { font-size: 16px;}
 	padding: 5px;
 	letter-spacing: 5px;
 }
+
+.html-pic{
+	width: 45px;
+	padding:0 70px;
+}
+
+.css-pic{
+	width: 45px;
+	padding: 0 70px;
+	
+}
+
+.js-pic{
+	width: 45px;
+	padding: 0 70px;
+}
+
+.node-pic{
+	width: 55px;
+	padding: 0 70px;
+}
+
+.ang-pic{
+	width: 45px;
+	padding: 0 70px;
+}
+.boot-pic{
+	width: 45px;
+	padding: 0 70px;
+}
+
