@@ -84,7 +84,10 @@ h6 { font-size: 16px;}
 	text-align: center;
 	align-content: center;
 	min-height: 10em;
+}
 
+.greeting-wrapper h1:nth-of-type(1) {
+	font-size: 1.6rem;
 }
 
 .intro-wrapper{
@@ -432,14 +435,14 @@ h6 { font-size: 16px;}
 }
 
 .main-message{
-	letter-spacing: 1.2rem;
-	font-size: 2rem;
+	letter-spacing: 0.8rem;
+	font-size: 1.5rem;
 	font-weight: 400;
 	overflow: hidden;
 	white-space: nowrap;
-	animation: typing 4.7s steps(25), blink 1s ease-in-out 4s infinite;
-	width: 35ch;
-	margin: 40px auto auto auto;
+	animation: typing 4s steps(25), blink 1s ease-in-out 4s infinite;
+	width: 19ch;
+	margin: 5px auto auto auto;
 	border-right: 4px solid rgb(255, 255, 255, 1);
 }
 @keyframes typing{
@@ -448,7 +451,7 @@ h6 { font-size: 16px;}
 			color: rgba(16, 158, 168, 1);
 	}
 	100%{
-			width: 35ch;
+			width: 19ch;
 	}
 }
 @keyframes blink{
