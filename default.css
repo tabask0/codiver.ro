@@ -440,8 +440,8 @@ h6 { font-size: 16px;}
 	font-weight: 400;
 	overflow: hidden;
 	white-space: nowrap;
-	animation: typing 4s steps(25), blink 1s ease-in-out 4s infinite;
-	width: 19ch;
+	animation: typing 4s steps(24), blink 1s ease-in-out 4s infinite;
+	width: 21ch;
 	margin: 5px auto auto auto;
 	border-right: 4px solid rgb(255, 255, 255, 1);
 }
@@ -451,7 +451,7 @@ h6 { font-size: 16px;}
 			color: rgba(16, 158, 168, 1);
 	}
 	100%{
-			width: 19ch;
+			width: 21ch;
 	}
 }
 @keyframes blink{
