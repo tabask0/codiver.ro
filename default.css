@@ -476,35 +476,76 @@ h6 { font-size: 16px;}
 	font-family: 'Roboto', sans-serif;
 	padding: 5px;
 	letter-spacing: 5px;
+	
 }
 
 .html-pic{
 	width: 45px;
 	padding:0 70px;
+	position: relative;
+	left: -400px;
+	-webkit-animation: slide 0.5s forwards;
+	animation: slide 1.3s forwards;
 }
 
 .css-pic{
 	width: 45px;
-	padding: 0 70px;
-	
+	padding:0 70px;
+	position: relative;
+	left: -600px;
+	-webkit-animation: slide 0.5s forwards;
+	-webkit-animation-delay: 1s;
+	animation: slide 1.3s forwards;
+	animation-delay: 1s;
 }
 
 .js-pic{
 	width: 45px;
-	padding: 0 70px;
+	padding:0 70px;
+	position: relative;
+	left: -800px;
+	-webkit-animation: slide 0.5s forwards;
+	-webkit-animation-delay: 1s;
+	animation: slide 1.3s forwards;
+	animation-delay: 1.5s;
 }
 
 .node-pic{
-	width: 55px;
-	padding: 0 70px;
+	width: 45px;
+	padding:0 70px;
+	position: relative;
+	left: -1200px;
+	-webkit-animation: slide 0.5s forwards;
+	-webkit-animation-delay: 1s;
+	animation: slide 1.3s forwards;
+	animation-delay: 2.5s;
 }
 
 .ang-pic{
 	width: 45px;
-	padding: 0 70px;
+	padding:0 70px;
+	position: relative;
+	left: -1000px;
+	-webkit-animation: slide 0.5s forwards;
+	-webkit-animation-delay: 1s;
+	animation: slide 1.3s forwards;
+	animation-delay: 2s;
 }
 .boot-pic{
 	width: 45px;
-	padding: 0 70px;
+	padding:0 70px;
+	position: relative;
+	left: -1400px;
+	-webkit-animation: slide 0.5s forwards;
+	-webkit-animation-delay: 1s;
+	animation: slide 1.3s forwards;
+	animation-delay: 3s;
 }
 
+@-webkit-keyframes slide {
+	100% { left: 0; }
+}
+
+@keyframes slide {
+	100% { left: 0; }
+}
