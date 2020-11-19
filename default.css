@@ -568,3 +568,16 @@ h6 {
 		left: 0;
 	}
 }
+
+.copyright {
+	margin-left: 55px 55px 55px 55px;
+}
+
+.contact-mail {
+	margin: auto;
+}
+
+.contact-mail h4:hover {
+	color: #17a2b8;
+	cursor: pointer;
+}
