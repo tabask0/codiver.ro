@@ -431,6 +431,18 @@ h6 {
 	margin: 5px auto auto auto;
 	border-right: 4px solid rgb(255, 255, 255, 1);
 }
+.main-message2 {
+	letter-spacing: 0.8rem;
+	font-size: 1.5rem;
+	font-weight: 400;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: typing2 4s steps(24), blink2 1s ease-in-out 4s infinite;
+	width: 32ch;
+	margin: 5px auto auto auto;
+	border-right: 4px solid rgb(255, 255, 255, 1);
+	color: #17a2b8;
+}
 @keyframes typing {
 	0% {
 		width: 0ch;
@@ -441,6 +453,24 @@ h6 {
 	}
 }
 @keyframes blink {
+	from {
+		border-right: 4px solid rgba(255, 255, 255, 0);
+	}
+	to {
+		border-right: 4px solid rgb(194, 194, 194);
+	}
+}
+@keyframes typing2 {
+	0% {
+		width: 0ch;
+		color: rgba(16, 158, 168, 1);
+	}
+	100% {
+		width: 32ch;
+		color: #17a2b8;
+	}
+}
+@keyframes blink2 {
 	from {
 		border-right: 4px solid rgba(255, 255, 255, 0);
 	}
